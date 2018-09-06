@@ -1,0 +1,4 @@
+#Thu Aug 30 12:37:32 CEST 2018
+base.0=/home/john/MyApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

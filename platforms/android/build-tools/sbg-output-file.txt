@@ -1,0 +1,1 @@
+/home/john/MyApp/platforms/android/app/src/main/java
