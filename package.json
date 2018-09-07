@@ -22,6 +22,7 @@
         "@angular/platform-browser-dynamic": "~6.1.0",
         "@angular/router": "~6.1.0",
         "nativescript-angular": "~6.1.0",
+        "nativescript-lottie": "^2.1.1",
         "nativescript-theme-core": "~1.0.4",
         "qrcode": "^1.2.2",
         "reflect-metadata": "~0.1.8",

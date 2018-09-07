@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable, Testability } from "@angular/core";
 
 import { User } from "./user.model";
 import { HttpClient, HttpHeaders, HttpResponse } from "@angular/common/http";
@@ -18,6 +18,7 @@ export class UserService {
 
     
     loginnew(user: User) {
+        console.log(this.getCompanyName(user))
         return new Promise((resolve, reject) => {
             this.user = user
             this.body = {
@@ -28,7 +29,7 @@ export class UserService {
             };
             console.log(this.body);
             this.http
-                .post('https://development-api.herokuapp.com/loginst', this.body, {
+                .post(this.getCompanyName(user), this.body, {
                     responseType: 'text'
                 })
                 .subscribe((response) => {
@@ -61,4 +62,20 @@ export class UserService {
     handleErrors(error) {
         console.error(error.message);
     }
+    getCompanyName(user) {
+        const environment: string = ''
+        var company = user.company.toLowerCase();
+        console.log(company, 'companyname');
+        if (this.specialInstances[company]) {return `https://${this.specialInstances[company]}.herokuapp.com/loginst`} else {
+            return `https://api-${company}.herokuapp.com/loginst`}
+    }
+    public specialInstances = {
+        development: 'development-api',
+        demo: 'api-demo1',
+        staging: 'api-staging1',
+        skb: 'api-skb-prod',
+        skbtest: 'api-skb',
+        dev: 'development-api',
+    }
 }
+

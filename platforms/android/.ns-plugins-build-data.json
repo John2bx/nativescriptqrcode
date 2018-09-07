@@ -1,5 +1,9 @@
 {
 	"tns-core-modules-widgets": {
 		"/home/john/MyApp/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "7a062e96fe7b542638c6a6570de1531521a7307b"
+	},
+	"nativescript-lottie": {
+		"/home/john/MyApp/node_modules/nativescript-lottie/platforms/android/LottieHelper.jar": "7fcc088e1b816f5ef79cdc18d2805a4e567f713d",
+		"/home/john/MyApp/node_modules/nativescript-lottie/platforms/android/include.gradle": "fd41b5e02d33457474e643c7469eb6a7b7fcb8b3"
 	}
 }

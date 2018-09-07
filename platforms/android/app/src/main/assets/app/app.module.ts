@@ -9,6 +9,7 @@ import { LoginComponent } from "./login/login.component";
 
 import { UserService } from "./shared/user.service";
 import { HomeComponent } from "~/home/home.component";
+import { LottieView } from "nativescript-lottie";
 
 @NgModule({
     bootstrap: [
@@ -20,6 +21,7 @@ import { HomeComponent } from "~/home/home.component";
         NativeScriptHttpClientModule,
         AppRoutingModule,
         NativeScriptHttpClientModule,
+        LottieView,
     ],
     declarations: [
         AppComponent,

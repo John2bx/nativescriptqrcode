@@ -163,6 +163,9 @@
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl-common.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/nativescript-intl.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/index.js
+/home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-lottie/scripts/build-native.js
+/home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-lottie/nativescript-lottie.common.js
+/home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-lottie/nativescript-lottie.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/modal-dialog.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/platform-static.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/platform-common.js

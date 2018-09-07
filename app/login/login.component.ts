@@ -6,6 +6,11 @@ const utilityModule = require("utils/utils");
 
 import { User } from "../shared/user.model";
 import { UserService } from "../shared/user.service";
+import { registerElement } from 'nativescript-angular';
+import { LottieView } from 'nativescript-lottie';
+
+registerElement('LottieView', () => LottieView);
+
 
 @Component({
     selector: "app-login",
@@ -19,13 +24,26 @@ export class LoginComponent {
     processing = false;
     @ViewChild("password") password: ElementRef;
     @ViewChild("confirmPassword") confirmPassword: ElementRef;
+    @ViewChild("company") company: ElementRef;
+    public loop: boolean = false;
+  public src: string;
+  public autoPlay: boolean = true;
+  public animations: Array<string>;
+
+  private _lottieView: LottieView;
+
+ 
+
+  lottieViewLoaded(event) {
+    this._lottieView = <LottieView>event.object;
+  }
 
     constructor(private page: Page, private userService: UserService, private router: Router) {
         this.page.actionBarHidden = true;
         this.user = new User();
-        // this.user.email = "foo2@foo.com";
-        // this.user.password = "foo";
-        // this.processing = true;
+        this.animations = ['Mobilo/A.json', 'Mobilo/D.json', 'Mobilo/N.json', 'Mobilo/S.json'];
+    this.src = this.animations[0];
+        
     }
 
     toggleForm() {
@@ -60,6 +78,9 @@ export class LoginComponent {
 
     focusPassword() {
         this.password.nativeElement.focus();
+    }
+    focusCompany() {
+        this.company.nativeElement.focus();
     }
     focusConfirmPassword() {
         if (!this.isLoggingIn) {

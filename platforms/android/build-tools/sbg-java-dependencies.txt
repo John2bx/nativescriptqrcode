@@ -1,4 +1,5 @@
 /home/john/Android/platforms/android-27/android.jar
+/home/john/MyApp/node_modules/nativescript-lottie/platforms/android/LottieHelper.jar
 /home/john/MyApp/platforms/android/app/build/exploded-dependencies/6/classes.jar
 /home/john/MyApp/platforms/android/app/build/exploded-dependencies/15/support-annotations-26.0.0-alpha1.jar
 /home/john/MyApp/platforms/android/app/build/exploded-dependencies/7/classes.jar
