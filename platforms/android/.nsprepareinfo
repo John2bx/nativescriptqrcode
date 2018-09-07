@@ -1,5 +1,5 @@
 {
-	"time": "Fri Sep 07 2018 00:54:21 GMT+0200 (GMT+02:00)",
+	"time": "Fri Sep 07 2018 15:02:58 GMT+0200 (GMT+02:00)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
@@ -39,18 +39,18 @@
 		"/home/john/MyApp/app/item/items.component.js": "2317a12ba7d8a46034cd571fade5221794c99406",
 		"/home/john/MyApp/app/item/items.component.ts": "e14afc2ce9ca40bbc84988a38201c2097e768f8e",
 		"/home/john/MyApp/app/login/login.component.css": "58772c65be766fc0f1b3f75d66fd437679d26fec",
-		"/home/john/MyApp/app/login/login.component.html": "de8329eb6a6c65cec6f24a3079a9dbd799b475a1",
-		"/home/john/MyApp/app/login/login.component.js": "d4113fa78b881f94a33b560ec947f3f6c1f75f64",
-		"/home/john/MyApp/app/login/login.component.ts": "f6e7f442f8588b07e6dd4adf92bd11e18f049fcd",
+		"/home/john/MyApp/app/login/login.component.html": "dce3f0af1215a66f4b5ef144c3eea9bcb1aaeb54",
+		"/home/john/MyApp/app/login/login.component.js": "25c45ff716f7231e5be415e8973a7ca025808138",
+		"/home/john/MyApp/app/login/login.component.ts": "4037d73ebf5b67f893a732ab36aa944dc26c58f7",
 		"/home/john/MyApp/app/main.aot.js": "82972974db53efeab4b1f1b29aaf4fe68351bd6d",
 		"/home/john/MyApp/app/main.aot.ts": "ef9598ed4f3baa376c80a9ddb552f6814344d26a",
 		"/home/john/MyApp/app/main.js": "489babc6e733ac4ac62a998d45a7af2efa10d7da",
 		"/home/john/MyApp/app/main.ts": "6dbb71595821208361ee4e50464775d4421b4deb",
 		"/home/john/MyApp/app/package.json": "62db8f086c6c89608370f1d52d8bcf671ce139db",
 		"/home/john/MyApp/app/shared/backend.service.js": "bdf472315954cf2a9a5151ea4568f481a5553431",
-		"/home/john/MyApp/app/shared/user.model.js": "4ba8ccab0a37d4b0cae3a17ece7593e4294cb889",
-		"/home/john/MyApp/app/shared/user.model.ts": "11d4627675e1a023d8d6e1d98cdd22741cb7345a",
-		"/home/john/MyApp/app/shared/user.service.js": "b66d9d3238f84bb8fc54e62af95c0286b1c34cc6",
-		"/home/john/MyApp/app/shared/user.service.ts": "b27367c3847c3d59df921907a3f827748991c275"
+		"/home/john/MyApp/app/shared/user.model.js": "f9a03489c8a24453ff56b6204ac761c2c07e848f",
+		"/home/john/MyApp/app/shared/user.model.ts": "7776db5dc7b343212a84060ba819073d3e0342d7",
+		"/home/john/MyApp/app/shared/user.service.js": "7b3f692f746f8e62f309fb54014ba76e408c5c70",
+		"/home/john/MyApp/app/shared/user.service.ts": "cce78b3f1c1ac597cb670f80480debfdb50e1142"
 	}
 }

@@ -19,6 +19,7 @@ export class LoginComponent {
     processing = false;
     @ViewChild("password") password: ElementRef;
     @ViewChild("confirmPassword") confirmPassword: ElementRef;
+    @ViewChild("company") company: ElementRef;
 
     constructor(private page: Page, private userService: UserService, private router: Router) {
         this.page.actionBarHidden = true;
@@ -65,6 +66,9 @@ export class LoginComponent {
         if (!this.isLoggingIn) {
             this.confirmPassword.nativeElement.focus();
         }
+    }
+    focusCompany() {
+        this.company.nativeElement.focus();
     }
     forgotPassword() {
         prompt({
