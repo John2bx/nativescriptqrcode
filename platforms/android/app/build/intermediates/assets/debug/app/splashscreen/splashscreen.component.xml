@@ -1,0 +1,17 @@
+<Page
+   xmlns="http://schemas.nativescript.org/tns.xsd"
+   xmlns:Lottie="nativescript-lottie">
+   <StackLayout>
+       <Lottie:LottieView
+           id="lottie"
+           android:src="app/assets/splashscreen.json"
+           ios:src="res://assets/splashscreen.json"
+           autoplay="true"
+           loop="false"
+           loaded="lottieLoaded"
+           tap="lottieTapped"
+           height="100%"
+           width="100%">
+       </Lottie:LottieView>
+   </StackLayout>
+</Page>

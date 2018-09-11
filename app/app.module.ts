@@ -9,6 +9,7 @@ import { LoginComponent } from "./login/login.component";
 
 import { UserService } from "./shared/user.service";
 import { HomeComponent } from "~/home/home.component";
+import { SplashScreenComponent } from "~/splashscreen/splashscreen.component";
 
 @NgModule({
     bootstrap: [
@@ -24,7 +25,8 @@ import { HomeComponent } from "~/home/home.component";
     declarations: [
         AppComponent,
         LoginComponent,
-        HomeComponent
+        HomeComponent,
+        SplashScreenComponent
     ],
     providers: [
         UserService

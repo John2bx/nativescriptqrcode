@@ -18,10 +18,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
-
     <application
         android:name="com.tns.NativeScriptApplication"
         android:allowBackup="true"
@@ -32,8 +28,7 @@
         <activity
             android:name="com.tns.NativeScriptActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/title_activity_kimera"
-            android:theme="@style/LaunchScreenTheme" >
+            android:label="@string/title_activity_kimera" >
             <meta-data
                 android:name="SET_THEME_ON_LAUNCH"
                 android:resource="@style/AppTheme" />

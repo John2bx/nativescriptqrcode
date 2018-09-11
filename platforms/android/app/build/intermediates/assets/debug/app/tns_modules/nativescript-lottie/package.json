@@ -1,0 +1,121 @@
+{
+  "_from": "nativescript-lottie",
+  "_id": "nativescript-lottie@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-NllZsXDK7BFqY5V5lxXo7TJF0cJf9Ij6hKv5a1Ow/csUfmHKvCK5TeOKZlrnF3U24Uspquu/YIpXdrc7b5iDrQ==",
+  "_location": "/nativescript-lottie",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-lottie",
+    "name": "nativescript-lottie",
+    "escapedName": "nativescript-lottie",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-lottie/-/nativescript-lottie-2.1.1.tgz",
+  "_shasum": "f9aaa15def315cae7c3029d4850bfb7743bff271",
+  "_spec": "nativescript-lottie",
+  "_where": "/home/john/MyApp",
+  "author": {
+    "name": "Brad Martin",
+    "email": "bradwaynemartin@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bradmartin/nativescript-lottie/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Nathan Walker",
+      "email": "walkerrunpdx@gmail.com"
+    },
+    {
+      "name": "JB",
+      "url": "https://github.com/rhanb"
+    },
+    {
+      "name": "Dirk Rudolph",
+      "url": "https://github.com/Buuhuu"
+    },
+    {
+      "name": "Hamdi Wanis",
+      "url": "https://github.com/hamdiwanis"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "NativeScript plugin to expose AirBnB Lottie library",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "~1.10.2",
+    "prompt": "^1.0.0",
+    "rimraf": "^2.5.0",
+    "semver": "^5.5.0",
+    "tns-core-modules": "^4.0.0",
+    "tns-platform-declarations": "^4.0.0",
+    "tslint": "5.9.1",
+    "typescript": "^2.8.3"
+  },
+  "homepage": "https://github.com/bradmartin/nativescript-lottie",
+  "keywords": [
+    "NativeScript",
+    "nativescript-lottie",
+    "Lottie",
+    "Android",
+    "iOS",
+    "TypeScript",
+    "bradmartin"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{ts, js, json, scss, md}": [
+      "tslint",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "nativescript-lottie",
+  "name": "nativescript-lottie",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.1",
+      "ios": "3.0.1"
+    },
+    "tns-ios": {
+      "version": "3.0.1"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmartin/nativescript-lottie.git"
+  },
+  "scripts": {
+    "build": "npm i && tsc && npm run build.native",
+    "build.native": "node scripts/build-native.js",
+    "debug.android": "npm run preparedemo && cd ../demo  && tns debug android --emulator",
+    "debug.ios": "npm run preparedemo && cd ../demo && tns debug ios --emulator",
+    "demo.android": "npm run preparedemo && cd ../demo && tns run android --syncAllFiles",
+    "demo.ios": "npm run preparedemo && cd ../demo && tns run ios --syncAllFiles",
+    "demo.ng.android": "npm run preparedemong && cd ../demo-ng && tns run android --syncAllFiles",
+    "demo.ng.ios": "npm run preparedemong && cd ../demo-ng && tns run ios --syncAllFiles",
+    "plugin.tscwatch": "npm run tsc -- -w",
+    "precommit": "lint-staged",
+    "prepack": "npm run build.native",
+    "preparedemo": "npm run build && cd ../demo && tns plugin remove nativescript-lottie && tns plugin add ../src && tns install",
+    "preparedemong": "npm run build && cd ../demo-ng && tns plugin remove nativescript-lottie && tns plugin add ../src && tns install",
+    "setup": "cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+    "start": "npm run demo.android",
+    "tsc": "tsc -skipLibCheck",
+    "tslint": "tslint --config './tslint.json' 'app/**/*.ts' --exclude '**/node_modules/**'"
+  },
+  "typings": "index.d.ts",
+  "version": "2.1.1"
+}
