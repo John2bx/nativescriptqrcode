@@ -242,8 +242,6 @@
 /home/john/MyApp/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/hooks/hook-helper.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/app.routing.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/home/home.component.js
-/home/john/MyApp/platforms/android/app/src/main/assets/app/home/home.module.js
-/home/john/MyApp/platforms/android/app/src/main/assets/app/home/home-routing.module.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/shared/backend.service.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/shared/user.service.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/shared/user.model.js

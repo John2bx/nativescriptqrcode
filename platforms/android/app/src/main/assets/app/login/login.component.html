@@ -32,10 +32,15 @@
 		<Label *ngIf="isLoggingIn" text="Forgot your password?" class="login-label" (tap)="forgotPassword()"></Label>
 	</StackLayout>
 
-	<Label class="login-label sign-up-label" (tap)="toggleForm()">
-		<FormattedString>
-			<Span [text]="isLoggingIn ? 'Want to know more about Gemvision? ' : 'Back to Login'"></Span>
-			<Span [text]="isLoggingIn ? 'Visit website' : ''" class="bold"></Span>
+	<Label  (tap)="toggleForm()">
+		<FormattedString >
+			<Span [text]="isLoggingIn ? 'Want to know more about Gemvision? ' : 'Back to Login'"></Span><br><br>
+		</FormattedString>
+	</Label>
+
+	<Label  (tap)="toggleForm()">
+		<FormattedString >
+			<Span [text]="isLoggingIn ?  'Visit website' : ''" class="bold"></Span>
 		</FormattedString>
 	</Label>
 </FlexboxLayout>

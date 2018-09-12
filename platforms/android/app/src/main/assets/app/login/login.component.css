@@ -59,4 +59,10 @@
   .bold {
     color: #000000; 
   }
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+
+  }
   

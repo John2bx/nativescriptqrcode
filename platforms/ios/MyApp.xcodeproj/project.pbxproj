@@ -5,11 +5,14 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		B0FB5636A6814ED9A44E49C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A516BEFAD5414FBC847BEC /* Assets.xcassets */; };
+		7D9503724EF04D5C9931A46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57CEDD9754443B1B571D381 /* LaunchScreen.storyboard */; };
+		1C4913ADF8374B5E8F4A36EC /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 105A6C991E24438CA5DA2D98 /* build.xcconfig */; };
+		72EB773C01234E1EBC0D1F1D /* splashscreen.json in Resources */ = {isa = PBXBuildFile; fileRef = F489416330C7459B8D452D7C /* splashscreen.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,10 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		31A516BEFAD5414FBC847BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "MyApp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
+		B57CEDD9754443B1B571D381 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "MyApp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
+		105A6C991E24438CA5DA2D98 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "MyApp/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		F489416330C7459B8D452D7C /* splashscreen.json */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = splashscreen.json; path = "MyApp/Resources/splashscreen.json"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,10 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				31A516BEFAD5414FBC847BEC /* Assets.xcassets */,
+				B57CEDD9754443B1B571D381 /* LaunchScreen.storyboard */,
+				105A6C991E24438CA5DA2D98 /* build.xcconfig */,
+				F489416330C7459B8D452D7C /* splashscreen.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -136,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TNS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 500;
 				ORGANIZATIONNAME = Telerik;
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "MyApp" */;
@@ -163,6 +174,10 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				B0FB5636A6814ED9A44E49C1 /* Assets.xcassets in Resources */,
+				7D9503724EF04D5C9931A46E /* LaunchScreen.storyboard in Resources */,
+				1C4913ADF8374B5E8F4A36EC /* build.xcconfig in Resources */,
+				72EB773C01234E1EBC0D1F1D /* splashscreen.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

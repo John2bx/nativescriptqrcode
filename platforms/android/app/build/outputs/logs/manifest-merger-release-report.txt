@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4c7756dd07359fc6dfbfd2ef83010172/AndroidManifest.xml:17:1-22:12
+MERGED from [com.airbnb.android:lottie:2.5.5] /home/john/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/f5b19b6ad95598e072ded912a1d01a8c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dfc95297e711f699c0bfa69975022f9e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /home/john/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/01a67cbfde9a13cca37c68d8e4c9c78c/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized:] /home/john/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/ead1791b503a6c1952b050ac97898f12/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /home/john/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/c072c83fd6e618e52979b7f74382e7c8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4537bb9754229b0f48d07313642abf7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a4fde54cb3458949ef49acc1ec88fe39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1f05aee2310d909969de9d9fb8f72889/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/400141209340715a8a86c83e7b0ded2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e64980efa2e31bfb73e265903de8d42e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/26b936638ea579f1530a93705126bf7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/430b98792310875f05f54423d349af36/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6799fffc19b27a8a914d85729fa46ed2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/271239b5a27824fcfa85b842ab554eb5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/899a27c85588443fa04b12f3188c5105/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/22ccd3a5d9050632bdfa60ca22d0fa1a/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:3:2-34
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.android.support:support-v4:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4c7756dd07359fc6dfbfd2ef83010172/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4c7756dd07359fc6dfbfd2ef83010172/AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.5.5] /home/john/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/f5b19b6ad95598e072ded912a1d01a8c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.5] /home/john/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/f5b19b6ad95598e072ded912a1d01a8c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dfc95297e711f699c0bfa69975022f9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dfc95297e711f699c0bfa69975022f9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /home/john/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/01a67cbfde9a13cca37c68d8e4c9c78c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/john/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/01a67cbfde9a13cca37c68d8e4c9c78c/AndroidManifest.xml:20:5-43
+MERGED from [:nativescript-optimized:] /home/john/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/ead1791b503a6c1952b050ac97898f12/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized:] /home/john/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/ead1791b503a6c1952b050ac97898f12/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/john/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/c072c83fd6e618e52979b7f74382e7c8/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/john/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/c072c83fd6e618e52979b7f74382e7c8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4537bb9754229b0f48d07313642abf7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4537bb9754229b0f48d07313642abf7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a4fde54cb3458949ef49acc1ec88fe39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a4fde54cb3458949ef49acc1ec88fe39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1f05aee2310d909969de9d9fb8f72889/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1f05aee2310d909969de9d9fb8f72889/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/400141209340715a8a86c83e7b0ded2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/400141209340715a8a86c83e7b0ded2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e64980efa2e31bfb73e265903de8d42e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e64980efa2e31bfb73e265903de8d42e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/26b936638ea579f1530a93705126bf7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/26b936638ea579f1530a93705126bf7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/430b98792310875f05f54423d349af36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/john/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/430b98792310875f05f54423d349af36/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6799fffc19b27a8a914d85729fa46ed2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6799fffc19b27a8a914d85729fa46ed2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/271239b5a27824fcfa85b842ab554eb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/271239b5a27824fcfa85b842ab554eb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/899a27c85588443fa04b12f3188c5105/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/899a27c85588443fa04b12f3188c5105/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/22ccd3a5d9050632bdfa60ca22d0fa1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/john/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/22ccd3a5d9050632bdfa60ca22d0fa1a/AndroidManifest.xml:20:5-44
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [com.airbnb.android:lottie:2.5.5] /home/john/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/f5b19b6ad95598e072ded912a1d01a8c/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.5] /home/john/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/f5b19b6ad95598e072ded912a1d01a8c/AndroidManifest.xml:11:5-20
+MERGED from [:widgets-release:] /home/john/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/c072c83fd6e618e52979b7f74382e7c8/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /home/john/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/c072c83fd6e618e52979b7f74382e7c8/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:25:3-29
+	android:icon
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:24:3-36
+	android:allowBackup
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:28:3-39:14
+	android:screenOrientation
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:30:4-40
+	android:configChanges
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:33:4-87
+	android:resource
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:33:50-84
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:33:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:35:4-38:20
+action#android.intent.action.MAIN
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:37:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:40:3-41:41
+	android:screenOrientation
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:41:3-39
+	android:name
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:40:13-55
