@@ -31,7 +31,7 @@ export class SplashScreenComponent {
 //output: 0
 public subscribe = this.source.subscribe(val =>{
   console.log(val)
-  if(val === 5){this.logoff()}
+  if(val === 4){this.logoff()}
 
   })
         

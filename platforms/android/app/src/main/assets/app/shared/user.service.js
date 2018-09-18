@@ -29,7 +29,7 @@ var UserService = /** @class */ (function () {
             };
             console.log(_this.body);
             _this.http
-                .post(_this.getCompanyName(user), _this.body, {
+                .post(_this.getUrlForLogin(user), _this.body, {
                 responseType: 'text'
             })
                 .subscribe(function (response) {
@@ -40,11 +40,11 @@ var UserService = /** @class */ (function () {
             });
         });
     };
-    UserService.prototype.resetPassword = function (email) {
+    UserService.prototype.resetPassword = function (user) {
         var _this = this;
         return new Promise(function (resolve, reject) {
             _this.http
-                .get("https://development-api.herokuapp.com/account/password/update/byemail/" + email, { responseType: "text" })
+                .get(_this.getUrlForReset(user), { responseType: "text" })
                 .subscribe(function (response) {
                 console.log(response);
                 _this.data = response;
@@ -54,11 +54,36 @@ var UserService = /** @class */ (function () {
                 reject();
             });
         });
+        /*      return new Promise((resolve, reject) => {
+             this.http
+                     .get(`https://development-api.herokuapp.com/account/password/update/byemail/${email}`, {responseType: "text"})
+                     .subscribe((response) => {
+                         console.log(response)
+                         this.data = response;
+                         resolve()
+                     }, (error) => {
+                         console.log(error)
+                         reject();
+                     }
+                     )
+                     }) */
     };
     UserService.prototype.handleErrors = function (error) {
         console.error(error.message);
     };
-    UserService.prototype.getCompanyName = function (user) {
+    UserService.prototype.getUrlForReset = function (user) {
+        var environment = '';
+        var company = user.company.toLowerCase();
+        var email = user.email.toLowerCase();
+        console.log(company, 'companyname');
+        if (this.specialInstances[company]) {
+            return "https://" + this.specialInstances[company] + ".herokuapp.com/account/password/update/byemail/" + email;
+        }
+        else {
+            return "https://api-" + company + ".herokuapp.com/account/password/update/byemail/" + email;
+        }
+    };
+    UserService.prototype.getUrlForLogin = function (user) {
         var environment = '';
         var company = user.company.toLowerCase();
         console.log(company, 'companyname');

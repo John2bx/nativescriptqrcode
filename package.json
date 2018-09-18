@@ -1,6 +1,6 @@
 {
     "nativescript": {
-        "id": "org.nativescript.MyApp",
+        "id": "com.gemvision.gemconnect",
         "tns-android": {
             "version": "4.2.0"
         },

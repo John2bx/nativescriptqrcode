@@ -9,7 +9,7 @@ var routes = [
     { path: "", redirectTo: "/splashscreen", pathMatch: "full" },
     { path: "login", component: login_component_1.LoginComponent },
     { path: "splashscreen", component: splashscreen_component_1.SplashScreenComponent },
-    //   { path: "login", component: LoginComponent },
+    { path: "reset", component: login_component_1.LoginComponent },
     { path: "home", component: home_component_1.HomeComponent }
 ];
 var AppRoutingModule = /** @class */ (function () {

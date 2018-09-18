@@ -72,7 +72,8 @@ export class LoginComponent {
         this.company.nativeElement.focus();
     }
     forgotPassword() {
-        prompt({
+        this.router.navigate(["/reset"]);
+       /*  prompt({
             title: "Forgot Password",
             message: "Enter the email address you used to register for GEMVISION to reset your password.",
             inputType: "email",
@@ -88,7 +89,7 @@ export class LoginComponent {
                         this.alert("Unfortunately, an error occurred resetting your password.");
                     });
             }
-        });
+        }); */
     }
 
     alert(message: string) {
