@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/04380edf4342568af843c87ed86e83e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5e1c1836a3ec3c6641994406ca54c0ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/0c7e09df03646c08e7dfa0a2297b1e88/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/be383bcd89b69433bb0159c19f1555d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/15aff2df156fc31965d368d2cc8f6abc/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/c492bfba3e0f8e9f8faa9bfc39a1de94/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/7e0e4310a9fe7a627a05d29bbb0d1142/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b79cc240ba8511ff33e5eeea5768716e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/689c94b64b6fe163e3f6d5ada9f8f032/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e6ed11ebabf919cba0d155f22aecd9eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f017df6988e2359fcbbd03947bd59da7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ff69028842b3ef0f51f436783bb44ea6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/aa64bd008504ecab2e31bfb6faf37745/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3acaf859a185a909fae690b5c20311f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c1249e1bba26afbbc634ea8509cbb330/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fecf11761862a18aca37201c22f10727/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4f2afce44bcb876f394b2fb4e4544178/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0a60e5b0fc7c71373bbebdb5ef44d8ed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bb1d22c6e40727827b34bf45cea80a1a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7cde52d2af9b0fbf9f799bdd60c17ce9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:3:2-36
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.android.support:design:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/04380edf4342568af843c87ed86e83e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/04380edf4342568af843c87ed86e83e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5e1c1836a3ec3c6641994406ca54c0ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5e1c1836a3ec3c6641994406ca54c0ee/AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/0c7e09df03646c08e7dfa0a2297b1e88/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/0c7e09df03646c08e7dfa0a2297b1e88/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/be383bcd89b69433bb0159c19f1555d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/be383bcd89b69433bb0159c19f1555d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/15aff2df156fc31965d368d2cc8f6abc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/15aff2df156fc31965d368d2cc8f6abc/AndroidManifest.xml:20:5-43
+MERGED from [:nativescript-optimized-with-inspector:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/c492bfba3e0f8e9f8faa9bfc39a1de94/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/c492bfba3e0f8e9f8faa9bfc39a1de94/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/7e0e4310a9fe7a627a05d29bbb0d1142/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/7e0e4310a9fe7a627a05d29bbb0d1142/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b79cc240ba8511ff33e5eeea5768716e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b79cc240ba8511ff33e5eeea5768716e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/689c94b64b6fe163e3f6d5ada9f8f032/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/689c94b64b6fe163e3f6d5ada9f8f032/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e6ed11ebabf919cba0d155f22aecd9eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e6ed11ebabf919cba0d155f22aecd9eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f017df6988e2359fcbbd03947bd59da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f017df6988e2359fcbbd03947bd59da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ff69028842b3ef0f51f436783bb44ea6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ff69028842b3ef0f51f436783bb44ea6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/aa64bd008504ecab2e31bfb6faf37745/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/aa64bd008504ecab2e31bfb6faf37745/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3acaf859a185a909fae690b5c20311f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3acaf859a185a909fae690b5c20311f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c1249e1bba26afbbc634ea8509cbb330/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c1249e1bba26afbbc634ea8509cbb330/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fecf11761862a18aca37201c22f10727/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fecf11761862a18aca37201c22f10727/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4f2afce44bcb876f394b2fb4e4544178/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4f2afce44bcb876f394b2fb4e4544178/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0a60e5b0fc7c71373bbebdb5ef44d8ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0a60e5b0fc7c71373bbebdb5ef44d8ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bb1d22c6e40727827b34bf45cea80a1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bb1d22c6e40727827b34bf45cea80a1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7cde52d2af9b0fbf9f799bdd60c17ce9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7cde52d2af9b0fbf9f799bdd60c17ce9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/0c7e09df03646c08e7dfa0a2297b1e88/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/0c7e09df03646c08e7dfa0a2297b1e88/AndroidManifest.xml:11:5-20
+MERGED from [:widgets-release:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/7e0e4310a9fe7a627a05d29bbb0d1142/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /Users/johnekelmans/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/7e0e4310a9fe7a627a05d29bbb0d1142/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:25:3-29
+	android:icon
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:24:3-36
+	android:allowBackup
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:28:3-39:14
+	android:screenOrientation
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:30:4-40
+	android:configChanges
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:33:4-87
+	android:resource
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:33:50-84
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:33:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:35:4-38:20
+action#android.intent.action.MAIN
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:37:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:40:3-41:41
+	android:screenOrientation
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:41:3-39
+	android:name
+		ADDED from /Users/johnekelmans/nativescriptqrcode/platforms/android/app/src/main/AndroidManifest.xml:40:13-55
