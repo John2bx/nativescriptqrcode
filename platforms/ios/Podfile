@@ -1,0 +1,8 @@
+use_frameworks!
+
+target "nativescriptqrcode" do
+# Begin Podfile - /Users/johnekelmans/nativescriptqrcode/node_modules/nativescript-lottie/platforms/ios/Podfile 
+ pod 'lottie-ios', "~> 2.5.0" 
+ # End Podfile 
+
+end

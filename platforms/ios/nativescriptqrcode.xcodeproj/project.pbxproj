@@ -7,10 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15BCFFA6559B42968C961B90 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 74A0270AC3D946D69042B42E /* assets */; };
+		1C702C71D1AC48758DED62EE /* splashscreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 0007045EADBA4942A5F24C98 /* splashscreen.json */; };
+		6335FB75A1BD4E6FBD3B280A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C2829311973C471E8E6C9785 /* build.xcconfig */; };
+		67BD91A87F12441290008AEF /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A98DF5CCF456C83DFE818 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E0FC11621511FCB001ED565 /* lottie-ios in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FC11521511FCB001ED565 /* lottie-ios */; };
+		6E0FC12921511FF2001ED565 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0FC12021511FD6001ED565 /* Lottie.framework */; };
+		6E0FC12A21511FF2001ED565 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0FC12021511FD6001ED565 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E0FC1392151329D001ED565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FC1382151329D001ED565 /* LaunchScreen.storyboard */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		B3E6CE868AAB4DC783C1D318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B9AE683A948C499CC0B46 /* Assets.xcassets */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		D971CF3534964BC281DB0506 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A98DF5CCF456C83DFE818 /* TNSWidgets.framework */; };
+		DC61B610774D400A9E3F2E71 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = C514F86C54174FD184DE4E40 /* NativeScriptEmbedder.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0FC11F21511FD6001ED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 62CA59B81E3C173B002D7188;
+			remoteInfo = Lottie_iOS;
+		};
+		6E0FC12121511FD6001ED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAE1F7E61E428CBE002E0974;
+			remoteInfo = Lottie_macOS;
+		};
+		6E0FC12321511FD6001ED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C5379761FB471D100C1BC65;
+			remoteInfo = Lottie_tvOS;
+		};
+		6E0FC12521511FD6001ED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84FE12EF1E4C1485009B157C;
+			remoteInfo = LottieLibraryIOS;
+		};
+		6E0FC12721511FD6001ED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6445B0D5207E0D4D00D84F6A;
+			remoteInfo = LottieLibraryMacOS;
+		};
+		6E0FC12B21511FF2001ED565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CA59B71E3C173B002D7188;
+			remoteInfo = Lottie_iOS;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
@@ -19,6 +75,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				67BD91A87F12441290008AEF /* TNSWidgets.framework in Embed Frameworks */,
+				6E0FC12A21511FF2001ED565 /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,11 +84,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0007045EADBA4942A5F24C98 /* splashscreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = splashscreen.json; path = nativescriptqrcode/Resources/splashscreen.json; sourceTree = "<group>"; };
+		07B4BEF7CD544D34E9655154 /* Pods_nativescriptqrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nativescriptqrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3D37FC24894ECF889C1F7B /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
+		5B7B9AE683A948C499CC0B46 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = nativescriptqrcode/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		6E0FC11521511FCB001ED565 /* lottie-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "lottie-ios"; sourceTree = "<group>"; };
+		6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lottie.xcodeproj; path = "lottie-ios/Lottie.xcodeproj"; sourceTree = "<group>"; };
+		6E0FC1382151329D001ED565 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../app/App_Resources/iOS/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74A0270AC3D946D69042B42E /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = assets; path = nativescriptqrcode/Resources/assets; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* nativescriptqrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nativescriptqrcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* nativescriptqrcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nativescriptqrcode-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* nativescriptqrcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nativescriptqrcode-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* nativescriptqrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nativescriptqrcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8A98DF5CCF456C83DFE818 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		C2829311973C471E8E6C9785 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = nativescriptqrcode/Resources/build.xcconfig; sourceTree = "<group>"; };
+		C514F86C54174FD184DE4E40 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,12 +112,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D971CF3534964BC281DB0506 /* TNSWidgets.framework in Frameworks */,
+				6E0FC12921511FF2001ED565 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2375AA21D1B44E849D83BF33 /* tns-core-modules */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D37FC24894ECF889C1F7B /* NativeScriptEmbedder.h */,
+				C514F86C54174FD184DE4E40 /* NativeScriptEmbedder.m */,
+			);
+			name = "tns-core-modules";
+			sourceTree = "<group>";
+		};
+		24AD05889C79B45A195181BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E0FC11821511FD6001ED565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0FC12021511FD6001ED565 /* Lottie.framework */,
+				6E0FC12221511FD6001ED565 /* Lottie.framework */,
+				6E0FC12421511FD6001ED565 /* Lottie.framework */,
+				6E0FC12621511FD6001ED565 /* libLottie.a */,
+				6E0FC12821511FD6001ED565 /* libLottie.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +155,8 @@
 				858B833718CA111C00AB12DE /* nativescriptqrcode */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
+				2375AA21D1B44E849D83BF33 /* tns-core-modules */,
+				24AD05889C79B45A195181BF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +172,10 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B8A98DF5CCF456C83DFE818 /* TNSWidgets.framework */,
+				6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */,
+				6E0FC11521511FCB001ED565 /* lottie-ios */,
+				07B4BEF7CD544D34E9655154 /* Pods_nativescriptqrcode.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,6 +206,11 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B7B9AE683A948C499CC0B46 /* Assets.xcassets */,
+				6E0FC1382151329D001ED565 /* LaunchScreen.storyboard */,
+				74A0270AC3D946D69042B42E /* assets */,
+				C2829311973C471E8E6C9785 /* build.xcconfig */,
+				0007045EADBA4942A5F24C98 /* splashscreen.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -112,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "nativescriptqrcode" */;
 			buildPhases = (
+				3A26884F89F449D332EE68A6 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -119,10 +230,12 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				EE79D2AC2D2259E7B3D4FF64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E0FC12C21511FF2001ED565 /* PBXTargetDependency */,
 			);
 			name = nativescriptqrcode;
 			productName = JDBridgeApp;
@@ -136,8 +249,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TNS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 500;
 				ORGANIZATIONNAME = Telerik;
+				TargetAttributes = {
+					858B83EF18CA22B800AB12DE = {
+						DevelopmentTeam = SG8BCX55R5;
+					};
+				};
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "nativescriptqrcode" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -149,6 +267,12 @@
 			mainGroup = 858B832518CA111C00AB12DE;
 			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E0FC11821511FD6001ED565 /* Products */;
+					ProjectRef = 6E0FC11721511FD6001ED565 /* Lottie.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				858B83EF18CA22B800AB12DE /* nativescriptqrcode */,
@@ -156,19 +280,81 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6E0FC12021511FD6001ED565 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 6E0FC11F21511FD6001ED565 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E0FC12221511FD6001ED565 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 6E0FC12121511FD6001ED565 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E0FC12421511FD6001ED565 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 6E0FC12321511FD6001ED565 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E0FC12621511FD6001ED565 /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = 6E0FC12521511FD6001ED565 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E0FC12821511FD6001ED565 /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = 6E0FC12721511FD6001ED565 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		858B842C18CA22B800AB12DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				6E0FC1392151329D001ED565 /* LaunchScreen.storyboard in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				B3E6CE868AAB4DC783C1D318 /* Assets.xcassets in Resources */,
+				6E0FC11621511FCB001ED565 /* lottie-ios in Resources */,
+				15BCFFA6559B42968C961B90 /* assets in Resources */,
+				6335FB75A1BD4E6FBD3B280A /* build.xcconfig in Resources */,
+				1C702C71D1AC48758DED62EE /* splashscreen.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3A26884F89F449D332EE68A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nativescriptqrcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +400,24 @@
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
 			showEnvVarsInLog = 0;
 		};
+		EE79D2AC2D2259E7B3D4FF64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nativescriptqrcode/Pods-nativescriptqrcode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nativescriptqrcode/Pods-nativescriptqrcode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -222,10 +426,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+				DC61B610774D400A9E3F2E71 /* NativeScriptEmbedder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0FC12C21511FF2001ED565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lottie_iOS;
+			targetProxy = 6E0FC12B21511FF2001ED565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
@@ -318,12 +531,21 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
+				DEVELOPMENT_TEAM = SG8BCX55R5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nativescriptqrcode/nativescriptqrcode-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/johnekelmans/nativescriptqrcode/node_modules/tns-core-modules/platforms/ios/src",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/nativescriptqrcode/nativescriptqrcode-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -340,9 +562,18 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
+				DEVELOPMENT_TEAM = SG8BCX55R5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nativescriptqrcode/nativescriptqrcode-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/johnekelmans/nativescriptqrcode/node_modules/tns-core-modules/platforms/ios/src",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/nativescriptqrcode/nativescriptqrcode-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = nativescriptqrcode;
