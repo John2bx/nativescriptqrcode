@@ -1,5 +1,6 @@
 /home/john/MyApp/platforms/android/app/src/main/assets/app/app-routing.module.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/app.component.js
+/home/john/MyApp/platforms/android/app/src/main/assets/app/forgotpassword/forgotpassword.component.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/splashscreen/splashscreen.component.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/main.aot.js
 /home/john/MyApp/platforms/android/app/src/main/assets/app/main.js

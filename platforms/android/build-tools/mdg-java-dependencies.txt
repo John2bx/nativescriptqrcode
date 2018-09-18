@@ -21,3 +21,4 @@
 /home/john/MyApp/platforms/android/app/build/exploded-dependencies/3/classes.jar
 /home/john/MyApp/platforms/android/app/build/exploded-dependencies/13/classes.jar
 /home/john/MyApp/platforms/android/app/build/exploded-dependencies/19/classes.jar
+/home/john/MyApp/platforms/android/app/build/intermediates/classes/release

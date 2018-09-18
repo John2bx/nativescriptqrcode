@@ -9,7 +9,7 @@ const routes: Routes = [
     { path: "", redirectTo: "/splashscreen", pathMatch: "full" },
     { path: "login", component: LoginComponent },
     { path: "splashscreen", component: SplashScreenComponent },
- //   { path: "login", component: LoginComponent },
+    { path: "reset", component: LoginComponent },
     { path: "home", component: HomeComponent }
 ];
 

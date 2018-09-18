@@ -816,6 +816,7 @@ int string abc_toolbar_collapse_description 0x7f0a001c
 int string app_name 0x7f0a001d
 int string search_menu_title 0x7f0a001e
 int string status_bar_notification_info_overflow 0x7f0a001f
+int string title_activity_kimera 0x7f0a0020
 int style AlertDialog_AppCompat 0x7f0b0000
 int style AlertDialog_AppCompat_Light 0x7f0b0001
 int style Animation_AppCompat_Dialog 0x7f0b0002

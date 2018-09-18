@@ -25,7 +25,7 @@ INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xm
 INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:3:2-34
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:3:2-36
 		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -35,7 +35,7 @@ INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xm
 	xmlns:android
 		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		ADDED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml:4:2-26
 		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/john/MyApp/platforms/android/app/src/main/AndroidManifest.xml
 supports-screens

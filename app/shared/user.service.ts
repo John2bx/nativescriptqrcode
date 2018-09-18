@@ -28,7 +28,7 @@ export class UserService {
             };
             console.log(this.body);
             this.http
-            .post(this.getCompanyName(user), this.body, {
+            .post(this.getUrlForLogin(user), this.body, {
                     responseType: 'text'
                 })
                 .subscribe((response) => {
@@ -41,8 +41,21 @@ export class UserService {
                 })
     }
 
-    resetPassword(email) {
+    resetPassword(user) {
         return new Promise((resolve, reject) => {
+            this.http
+                    .get(this.getUrlForReset(user), {responseType: "text"})    
+                    .subscribe((response) => {
+                        console.log(response)
+                        this.data = response;
+                        resolve()
+                    }, (error) => {
+                        console.log(error)
+                        reject();
+                    }
+                    )
+                    })
+   /*      return new Promise((resolve, reject) => {
         this.http
                 .get(`https://development-api.herokuapp.com/account/password/update/byemail/${email}`, {responseType: "text"})    
                 .subscribe((response) => {
@@ -54,14 +67,22 @@ export class UserService {
                     reject();
                 }
                 )
-                })
+                }) */
     }
     
 
     handleErrors(error) {
         console.error(error.message);
     }
-    getCompanyName(user) {
+    getUrlForReset(user) {
+        const environment: string = ''
+        var company = user.company.toLowerCase();
+        var email = user.email.toLowerCase();
+        console.log(company, 'companyname');
+        if (this.specialInstances[company]) {return `https://${this.specialInstances[company]}.herokuapp.com/account/password/update/byemail/${email}`} else {
+            return `https://api-${company}.herokuapp.com/account/password/update/byemail/${email}`}
+    }
+    getUrlForLogin(user) {
         const environment: string = ''
         var company = user.company.toLowerCase();
         console.log(company, 'companyname');

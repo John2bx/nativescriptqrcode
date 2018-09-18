@@ -18,7 +18,7 @@ var SplashScreenComponent = /** @class */ (function () {
         //output: 0
         this.subscribe = this.source.subscribe(function (val) {
             console.log(val);
-            if (val === 5) {
+            if (val === 4) {
                 _this.logoff();
             }
         });

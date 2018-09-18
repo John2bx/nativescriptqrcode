@@ -10,6 +10,7 @@ var login_component_1 = require("./login/login.component");
 var user_service_1 = require("./shared/user.service");
 var home_component_1 = require("~/home/home.component");
 var splashscreen_component_1 = require("~/splashscreen/splashscreen.component");
+var forgotpassword_component_1 = require("~/forgotpassword/forgotpassword.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -29,7 +30,8 @@ var AppModule = /** @class */ (function () {
                 app_component_1.AppComponent,
                 login_component_1.LoginComponent,
                 home_component_1.HomeComponent,
-                splashscreen_component_1.SplashScreenComponent
+                splashscreen_component_1.SplashScreenComponent,
+                forgotpassword_component_1.ForgotPasswordComponent,
             ],
             providers: [
                 user_service_1.UserService
