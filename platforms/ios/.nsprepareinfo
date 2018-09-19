@@ -1,11 +1,11 @@
 {
-	"time": "Tue Sep 18 2018 17:06:28 GMT+0200 (Central European Summer Time)",
+	"time": "Wed Sep 19 2018 09:57:17 GMT+0200 (Central European Summer Time)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": false,
+	"changesRequireBuild": true,
 	"projectFileHash": "c3e4aeff003b6546df9509ca988ed373439f27c26e579400323561c22292fef8",
-	"changesRequireBuildTime": "Tue Sep 18 2018 16:11:56 GMT+0200 (Central European Summer Time)",
+	"changesRequireBuildTime": "Wed Sep 19 2018 09:57:17 GMT+0200 (Central European Summer Time)",
 	"appFilesHashes": {
 		"/Users/johnekelmans/nativescriptqrcode/app/shared/backend.service.ts": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"/Users/johnekelmans/nativescriptqrcode/app/.DS_Store": "c8ff320d4d20196962f17ef23f2c07b7edc4c81b",
