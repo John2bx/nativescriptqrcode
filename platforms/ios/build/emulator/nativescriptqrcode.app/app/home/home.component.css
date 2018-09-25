@@ -12,8 +12,8 @@
   font-weight: bold;
 }
 .qrcode {
-  margin-bottom: 8;
-  height: 325;
+  margin-bottom: 20;
+  height: 275;
   font-weight: bold;
   margin-top: 0;
   text-align: center;
@@ -31,6 +31,14 @@
   font-size: 15;
   font-weight: 600;
   margin-bottom: 0;
+  text-align: center;
+  color: black;
+  horizontal-align: center;
+}
+.headersmallerend {
+  font-size: 15;
+  font-weight: 600;
+  margin-bottom: 20;
   text-align: center;
   color: black;
   horizontal-align: center;

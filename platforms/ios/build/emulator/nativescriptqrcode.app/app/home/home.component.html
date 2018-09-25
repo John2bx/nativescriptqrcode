@@ -5,14 +5,16 @@
 		<Label class="headersmaller" text="FOR GEMVISION"></Label>
 		<Label text="SMARTGLASS CONNECTION" class="login-label"></Label>
 		<Label class="headersmaller" text="SCAN THIS QR CODE WITH THE"></Label>
-		<Label class="headersmaller" text="SCANNER IN YOUR SMARTGLASS"></Label>
+		<Label class="headersmallerend" text="SCANNER IN YOUR SMARTGLASS"></Label>
+	</StackLayout>
+	<FlexBoxLayout *ngIf="bindings.valid">
+		<Image [src]="bindings.imageUri" class="qrcode"></Image>
+		</FlexBoxLayout>
 		<Progress [value]="bindings.seconds" class="progress" maxValue="60"></Progress>
 		<FlexBoxLayout *ngIf="bindings.valid">
 		<Label text="THIS QR CODE IS VALID FOR {{bindings.seconds}} SECONDS" class="login-label"></Label>
 		</FlexBoxLayout>
-	<FlexBoxLayout *ngIf="bindings.valid">
-		<Image [src]="bindings.imageUri" class="qrcode"></Image>
-		</FlexBoxLayout>
+	
 		<Label *ngIf="!bindings.valid" text="YOUR QR CODE IS EXPIRED" class="login-label"></Label>
 	<FlexboxLayout *ngIf="!bindings.valid">
 		<Button text="GENERATE NEW" (tap)="generate()" class="btn btn-primary m-t-20"></Button>
@@ -22,5 +24,5 @@
 		<Button text="LOG OUT" (tap)="logoff()" class="btn btn-primary m-t-20"></Button>
 		
 	</FlexboxLayout>
-	   </StackLayout>
+	   
 </FlexboxLayout>

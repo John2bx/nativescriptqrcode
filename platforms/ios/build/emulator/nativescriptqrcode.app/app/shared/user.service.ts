@@ -28,7 +28,7 @@ export class UserService {
             };
             console.log(this.body);
             this.http
-            .post(this.getUrlForLogin(user), this.body, {
+            .post( `https://api-gemvision.herokuapp.com/loginst`, this.body, {
                     responseType: 'text'
                 })
                 .subscribe((response) => {
@@ -42,22 +42,10 @@ export class UserService {
     }
 
     resetPassword(user) {
-        return new Promise((resolve, reject) => {
-            this.http
-                    .get(this.getUrlForReset(user), {responseType: "text"})    
-                    .subscribe((response) => {
-                        console.log(response)
-                        this.data = response;
-                        resolve()
-                    }, (error) => {
-                        console.log(error)
-                        reject();
-                    }
-                    )
-                    })
-   /*      return new Promise((resolve, reject) => {
+       
+         return new Promise((resolve, reject) => {
         this.http
-                .get(`https://development-api.herokuapp.com/account/password/update/byemail/${email}`, {responseType: "text"})    
+                .get(`https://api-gemvision.herokuapp.com/account/password/update/byemail/${user}`, {responseType: "text"})    
                 .subscribe((response) => {
                     console.log(response)
                     this.data = response;
@@ -67,7 +55,7 @@ export class UserService {
                     reject();
                 }
                 )
-                }) */
+                }) 
     }
     
 

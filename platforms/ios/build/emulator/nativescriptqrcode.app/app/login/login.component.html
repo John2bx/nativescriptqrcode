@@ -12,16 +12,12 @@
 			</StackLayout>
 
 			<StackLayout row="1" class="input-field">
-				<TextField #password class="input" [isEnabled]="!processing" hint="Password" secure="true" [(ngModel)]="user.password" returnKeyType="next" (returnPress)="focusCompany()"></TextField>
+				<TextField #password class="input" [isEnabled]="!processing" hint="Password" secure="true" [(ngModel)]="user.password" returnKeyType="done" (returnPress)="submit()"></TextField>
 				<StackLayout class="hr-light"></StackLayout>
 			</StackLayout>
 
 			<StackLayout row="2" *ngIf="!isLoggingIn" class="input-field">
 				<TextField #confirmPassword class="input" [isEnabled]="!processing" hint="Confirm password" secure="true" [(ngModel)]="user.confirmPassword" returnKeyType="done" ></TextField>
-				<StackLayout class="hr-light"></StackLayout>
-			</StackLayout>
-			<StackLayout row="3" class="input-field">
-				<TextField #company class="input" [isEnabled]="!processing" hint="Company"  [(ngModel)]="user.company" [returnKeyType]="isLoggingIn ? 'done' : 'next'" (returnPress)="submit()"></TextField>
 				<StackLayout class="hr-light"></StackLayout>
 			</StackLayout>
 

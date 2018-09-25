@@ -41,6 +41,7 @@ export class LoginComponent {
         }
 
         this.processing = true;
+        this.user.email = this.user.email.trim()
         if (this.isLoggingIn) {
             this.login(this.user);
         } 
@@ -72,8 +73,8 @@ export class LoginComponent {
         this.company.nativeElement.focus();
     }
     forgotPassword() {
-        this.router.navigate(["/reset"]);
-       /*  prompt({
+       
+         prompt({
             title: "Forgot Password",
             message: "Enter the email address you used to register for GEMVISION to reset your password.",
             inputType: "email",
@@ -81,15 +82,18 @@ export class LoginComponent {
             okButtonText: "Ok",
             cancelButtonText: "Cancel"
         }).then((data) => {
+            this.processing = true
             if (data.result) {
                 this.userService.resetPassword(data.text.trim())
                     .then(() => {
+                        this.processing = false;
                         this.alert("Your password was successfully reset. Please check your email for instructions on choosing a new password.");
                     }).catch(() => {
+                        this.processing = false
                         this.alert("Unfortunately, an error occurred resetting your password.");
                     });
             }
-        }); */
+        }); 
     }
 
     alert(message: string) {
@@ -100,4 +104,4 @@ export class LoginComponent {
         });
     }
 }
-//comment
+//comment more
