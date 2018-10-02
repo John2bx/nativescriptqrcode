@@ -29,6 +29,7 @@ var LoginComponent = /** @class */ (function () {
             return;
         }
         this.processing = true;
+        this.user.email = this.user.email.trim();
         if (this.isLoggingIn) {
             this.login(this.user);
         }
@@ -57,24 +58,27 @@ var LoginComponent = /** @class */ (function () {
         this.company.nativeElement.focus();
     };
     LoginComponent.prototype.forgotPassword = function () {
-        this.router.navigate(["/reset"]);
-        /*  prompt({
-             title: "Forgot Password",
-             message: "Enter the email address you used to register for GEMVISION to reset your password.",
-             inputType: "email",
-             defaultText: "",
-             okButtonText: "Ok",
-             cancelButtonText: "Cancel"
-         }).then((data) => {
-             if (data.result) {
-                 this.userService.resetPassword(data.text.trim())
-                     .then(() => {
-                         this.alert("Your password was successfully reset. Please check your email for instructions on choosing a new password.");
-                     }).catch(() => {
-                         this.alert("Unfortunately, an error occurred resetting your password.");
-                     });
-             }
-         }); */
+        var _this = this;
+        dialogs_1.prompt({
+            title: "Forgot Password",
+            message: "Enter the email address you used to register for GEMVISION to reset your password.",
+            inputType: "email",
+            defaultText: "",
+            okButtonText: "Ok",
+            cancelButtonText: "Cancel"
+        }).then(function (data) {
+            _this.processing = true;
+            if (data.result) {
+                _this.userService.resetPassword(data.text.trim())
+                    .then(function () {
+                    _this.processing = false;
+                    _this.alert("Your password was successfully reset. Please check your email for instructions on choosing a new password.");
+                }).catch(function () {
+                    _this.processing = false;
+                    _this.alert("Unfortunately, an error occurred resetting your password.");
+                });
+            }
+        });
     };
     LoginComponent.prototype.alert = function (message) {
         return dialogs_1.alert({
@@ -107,3 +111,4 @@ var LoginComponent = /** @class */ (function () {
     return LoginComponent;
 }());
 exports.LoginComponent = LoginComponent;
+//comment more

@@ -29,7 +29,7 @@ var UserService = /** @class */ (function () {
             };
             console.log(_this.body);
             _this.http
-                .post(_this.getUrlForLogin(user), _this.body, {
+                .post("https://api-gemvision.herokuapp.com/loginst", _this.body, {
                 responseType: 'text'
             })
                 .subscribe(function (response) {
@@ -44,7 +44,7 @@ var UserService = /** @class */ (function () {
         var _this = this;
         return new Promise(function (resolve, reject) {
             _this.http
-                .get(_this.getUrlForReset(user), { responseType: "text" })
+                .get("https://api-gemvision.herokuapp.com/account/password/update/byemail/" + user, { responseType: "text" })
                 .subscribe(function (response) {
                 console.log(response);
                 _this.data = response;
@@ -54,19 +54,6 @@ var UserService = /** @class */ (function () {
                 reject();
             });
         });
-        /*      return new Promise((resolve, reject) => {
-             this.http
-                     .get(`https://development-api.herokuapp.com/account/password/update/byemail/${email}`, {responseType: "text"})
-                     .subscribe((response) => {
-                         console.log(response)
-                         this.data = response;
-                         resolve()
-                     }, (error) => {
-                         console.log(error)
-                         reject();
-                     }
-                     )
-                     }) */
     };
     UserService.prototype.handleErrors = function (error) {
         console.error(error.message);

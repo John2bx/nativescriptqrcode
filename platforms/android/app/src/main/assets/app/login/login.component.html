@@ -1,9 +1,9 @@
 <FlexboxLayout class="page">
 	<StackLayout class="form">
 		<Image class="logo" src="~/images/logo.png"></Image>
-		<Label class="header" text="GEMVISION"></Label>
-		<Label text="GLASS CONNECTION" class="login-label" (tap)="forgotPassword()"></Label>
-
+		<Label class="header" text="GEMCONNECT"></Label>
+		<Label class="headersmaller" text="FOR GEMVISION"></Label>
+		<Label text="SMARTGLASS CONNECTION" class="login-label"></Label>
 
 		<GridLayout rows="auto, auto, auto">
 			<StackLayout row="0" class="input-field">
@@ -12,16 +12,12 @@
 			</StackLayout>
 
 			<StackLayout row="1" class="input-field">
-				<TextField #password class="input" [isEnabled]="!processing" hint="Password" secure="true" [(ngModel)]="user.password" returnKeyType="next" (returnPress)="focuscompany()"></TextField>
+				<TextField #password class="input" [isEnabled]="!processing" hint="Password" secure="true" [(ngModel)]="user.password" returnKeyType="done" (returnPress)="submit()"></TextField>
 				<StackLayout class="hr-light"></StackLayout>
 			</StackLayout>
 
 			<StackLayout row="2" *ngIf="!isLoggingIn" class="input-field">
 				<TextField #confirmPassword class="input" [isEnabled]="!processing" hint="Confirm password" secure="true" [(ngModel)]="user.confirmPassword" returnKeyType="done" ></TextField>
-				<StackLayout class="hr-light"></StackLayout>
-			</StackLayout>
-			<StackLayout row="3" class="input-field">
-				<TextField #company class="input" [isEnabled]="!processing" hint="Company"  [(ngModel)]="user.company" [returnKeyType]="isLoggingIn ? 'done' : 'next'" (returnPress)="submit()"></TextField>
 				<StackLayout class="hr-light"></StackLayout>
 			</StackLayout>
 

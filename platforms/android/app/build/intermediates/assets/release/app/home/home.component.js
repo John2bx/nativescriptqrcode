@@ -20,7 +20,7 @@ var HomeComponent = /** @class */ (function () {
             console.log(val);
             _this.bindings.seconds = 60 - val;
             if (_this.bindings.seconds <= 0) {
-                _this.bindings.valid = false;
+                _this.generate();
             }
         });
         this.bindings = {
@@ -39,7 +39,7 @@ var HomeComponent = /** @class */ (function () {
             console.log(val);
             _this.bindings.seconds = 60 - val;
             if (_this.bindings.seconds <= 0) {
-                _this.bindings.valid = false;
+                _this.generate();
             }
         });
         this.userService.loginnew(this.userService.user)

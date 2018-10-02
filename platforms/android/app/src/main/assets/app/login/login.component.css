@@ -22,6 +22,14 @@
     text-align: center;
     color: black;
   }
+  .headersmaller {
+    font-size: 15;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+    horizontal-align: center;
+  }
   
   .input-field {
     margin-bottom: 25;

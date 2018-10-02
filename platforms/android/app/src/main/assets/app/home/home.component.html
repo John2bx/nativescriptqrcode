@@ -1,23 +1,28 @@
 <FlexboxLayout class="page">
 	<StackLayout class="form">
 		<Image class="logo" src="~/images/logo.png"></Image>
-		<Label class="header" text="GEMVISION"></Label>
-		<Label text="GLASS CONNECTION" class="login-label"></Label>
-		<Label class="header" text="USE THIS QR CODE TO"></Label>
-		<Label class="header" text="CONNECT YOUR GLASSES"></Label>
-		<Progress [value]="bindings.seconds" class="progress" maxValue="60"></Progress>
-		<GridLayout *ngIf="bindings.valid">
-		<Label text="THIS QR CODE IS VALID FOR {{bindings.seconds}} SECONDS" class="login-label"></Label>
+		<Label class="header" text="GEMCONNECT"></Label>
+		<Label class="headersmaller" text="FOR GEMVISION"></Label>
+		<Label text="SMARTGLASS CONNECTION" class="login-label"></Label>
+		<Label class="headersmaller" text="SCAN THIS QR CODE WITH THE"></Label>
+		<Label class="headersmallerend" text="SCANNER IN YOUR SMARTGLASS"></Label>
+	</StackLayout>
+	<FlexBoxLayout *ngIf="bindings.valid">
 		<Image [src]="bindings.imageUri" class="qrcode"></Image>
-		</GridLayout>
+		</FlexBoxLayout>
+		<Progress [value]="bindings.seconds" class="progress" maxValue="60"></Progress>
+		<FlexBoxLayout *ngIf="bindings.valid">
+		<Label text="THIS QR CODE IS VALID FOR {{bindings.seconds}} SECONDS" class="login-label"></Label>
+		</FlexBoxLayout>
+	
 		<Label *ngIf="!bindings.valid" text="YOUR QR CODE IS EXPIRED" class="login-label"></Label>
 	<FlexboxLayout *ngIf="!bindings.valid">
 		<Button text="GENERATE NEW" (tap)="generate()" class="btn btn-primary m-t-20"></Button>
 		
 	</FlexboxLayout>
 	<FlexboxLayout *ngIf="!bindings.valid">
-		<Button text="LOGOFF" (tap)="logoff()" class="btn btn-primary m-t-20"></Button>
+		<Button text="LOG OUT" (tap)="logoff()" class="btn btn-primary m-t-20"></Button>
 		
 	</FlexboxLayout>
-	   </StackLayout>
+	   
 </FlexboxLayout>

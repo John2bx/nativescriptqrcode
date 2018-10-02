@@ -12,10 +12,12 @@
   font-weight: bold;
 }
 .qrcode {
-  margin-bottom: 8;
-  height: 325;
+  margin-bottom: 20;
+  height: 275;
   font-weight: bold;
   margin-top: 0;
+  text-align: center;
+  horizontal-align:center;
 }
 .header {
   font-size: 25;
@@ -25,7 +27,22 @@
   color: black;
   horizontal-align: center;
 }
-
+.headersmaller {
+  font-size: 15;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+  horizontal-align: center;
+}
+.headersmallerend {
+  font-size: 15;
+  font-weight: 600;
+  margin-bottom: 20;
+  text-align: center;
+  color: black;
+  horizontal-align: center;
+}
 .input-field {
   margin-bottom: 25;
 }
